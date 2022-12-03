@@ -1,0 +1,6 @@
+project: tinyobjloader-c
+target: tinyobj-fuzz
+
+cmds:
+    - cmd: ./tinyobj-fuzz
+      libfuzzer: true
